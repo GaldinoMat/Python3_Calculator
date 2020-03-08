@@ -1,3 +1,8 @@
+"""
+    Calculator program
+    Author: Mateus Galdino
+"""
+
 import re
 
 print("Our magical calculator")
@@ -41,6 +46,5 @@ try:
         perform_math()
 except SyntaxError:
     print("Unexpected character or end of line. Please, try again")
-finally:
     while run:
         perform_math()
